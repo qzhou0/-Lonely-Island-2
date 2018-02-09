@@ -15,6 +15,13 @@ this methedology, the maximum number of steps needed to find an element of the
 array would be 2n, thus allowing the algorithm to in theory, run in O(n) time.
 
 ## Experiment methodology described
+We started off with a randomly generated 1000*1000 from which we tested our
+algorith with a 1000000 times in a row, searching for random values each time.
+This ensures that any outliers become insignificant thoough the numerous trials.
+The time needed for the 1000000 trials is then stored in an array.
+The process is repeated for the other n*n arrays in 1000 step increments upto
+15000*15000.
+
 ## Results
 Graphs, clearly labeled.
 ## Conclusions
