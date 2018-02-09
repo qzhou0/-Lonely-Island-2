@@ -49,7 +49,6 @@ The process is repeated for the other n x n arrays with n incrementing by 1000 u
 | 14000 | 	16772 | 
 | 15000 | 	18368 | 
 
-Graphs, clearly labeled.
 
 ## Conclusions
 
