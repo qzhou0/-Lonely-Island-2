@@ -31,7 +31,7 @@ The process is repeated for the other n x n arrays with n incrementing by 1000 u
 
 ## Results
 
-| size (n)	| time (mlliseconds) | 
+| size (n)	| time (milliseconds) | 
 |---------|-------------------|
 | 1000 | 812 | 
 | 2000 | 	1361 | 
@@ -55,7 +55,8 @@ The process is repeated for the other n x n arrays with n incrementing by 1000 u
 ## Conclusions
 
 The results shown demonstrate that the program is ran in a linear fashion as every increase in n produced a relatively similar increase in the run time of the 1000000 trials.
-Perhaps the great number of trials and great matrices with great intervals has limited room to encounter finding irregularities that many groups have found and posted in the QAF.
+
+Perhaps the great number of trials and great matrices with great intervals has limited room to encounter irregularities that many groups have found and posted in the QAF.
 
 Analysis of raw data (concise explanations of conclusions drawn.)
 Explicit mention of any results you *cannot* explain.
