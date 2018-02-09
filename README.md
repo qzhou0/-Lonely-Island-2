@@ -58,6 +58,5 @@ The results shown demonstrate that the program is ran in a linear fashion as eve
 
 Perhaps the great number of trials and great matrices with great intervals has limited room to encounter irregularities that many groups have found and posted in the QAF.
 
-Analysis of raw data (concise explanations of conclusions drawn.)
-Explicit mention of any results you *cannot* explain.
+
 
