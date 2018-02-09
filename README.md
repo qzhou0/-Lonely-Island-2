@@ -31,6 +31,23 @@ The process is repeated for the other n x n arrays with n incrementing by 1000 u
 
 ## Results
 
+| size (n)	| time (mlliseconds) | 
+|---------|-------------------|
+| 1000 | 812 | 
+| 2000 | 	1361 | 
+| 3000 | 	2126 | 
+| 4000 | 	3523 | 
+| 5000 | 	4439 | 
+| 6000 | 	5721 | 
+| 7000 | 	6912 | 
+| 8000 | 	8458 | 
+| 9000 | 	9800 | 
+| 10000 | 	11114 | 
+| 11000 | 	12441 | 
+| 12000 | 	13882 | 
+| 13000 | 	16024 | 
+| 14000 | 	16772 | 
+| 15000 | 	18368 | 
 Graphs, clearly labeled.
 
 ## Conclusions
