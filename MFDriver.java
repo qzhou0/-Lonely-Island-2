@@ -1,7 +1,7 @@
 public class MFDriver{
     public static void main(String args[]){
 
-	double[] times = new double[15];
+	double[] times = new double[150];
 	/*
 	  int[][] f = create(10000);
 	  int find = 234;
@@ -17,13 +17,13 @@ public class MFDriver{
 	  }
 	*/
 	
-	for(int n=1; n<=15; n++){
-	    System.out.println("Running search algorithm with n = " + n*1000 + "...");
-	    int[][] toSearch = MatrixFinder.create(n*1000);
-	    	    
+	for(int n=1; n<=100; n++){
+	    System.out.println("Running search algorithm with n = " + n*100 + "...");
+	    int[][] toSearch = MatrixFinder.create(n*100);
+	    
 	    double start = System.currentTimeMillis();
       	    for(int trial=0; trial<1000000; trial++){
-		MatrixFinder.search(toSearch, (int)(n*10000*Math.random()));
+		MatrixFinder.search(toSearch, (int)(n*100*Math.random()));
 	    }
 	    
 	    double end = System.currentTimeMillis();
