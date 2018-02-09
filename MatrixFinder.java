@@ -67,49 +67,5 @@ public class MatrixFinder{
 	}
 	return "(-1,-1)";
     }
-    //    public static long time(){
-    //    }
-    public static void main(String args[]){
-	int[][] a = create(1);
-	int[][] b = create(10);
-	int[][] c = create(100);
-	int[][] d = create(1000);
-	int[][] e = create(5000);
 
-	double[] times = new double[10];
-	int[][] f = create(10000);
-	int find = 234;
-	for(int i=0; i<10; i++){
-	    double sum = 0;
-	    for(int n=0;n<100000; n++){
-		double start = System.currentTimeMillis();
-		search(f,find);
-		double end = System.currentTimeMillis();
-		sum+=end-start;
-	    }
-	    System.out.println(sum);
-	}
-	/*	
-	for(int n=5; n<15; n++){
-	    int[][] toSearch = create((int)Math.pow(2,n));
-	    	    
-	    double start = System.currentTimeMillis();
-	    for(int trial=0; trial<1000000; trial++){
-		search(toSearch, (int)(Math.pow(2,n)*10*Math.random()));
-	    }
-	    
-	    double end = System.currentTimeMillis();
-	    double elapsed = end-start;
-	    
-	    times[n-5] = elapsed;
-	    System.out.println(elapsed);
-	}
-	System.out.println("====RESULTS====");
-	for(double i: times){
-	    System.out.println(i);
-	}
-	*/
-       
-	
-    }
 }
