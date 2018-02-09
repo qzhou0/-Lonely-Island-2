@@ -77,7 +77,19 @@ public class MatrixFinder{
 	int[][] e = create(5000);
 
 	double[] times = new double[10];
-	
+	int[][] f = create(10000);
+	int find = 234;
+	for(int i=0; i<10; i++){
+	    double sum = 0;
+	    for(int n=0;n<100000; n++){
+		double start = System.currentTimeMillis();
+		search(f,find);
+		double end = System.currentTimeMillis();
+		sum+=end-start;
+	    }
+	    System.out.println(sum);
+	}
+	/*	
 	for(int n=5; n<15; n++){
 	    int[][] toSearch = create((int)Math.pow(2,n));
 	    	    
@@ -96,13 +108,8 @@ public class MatrixFinder{
 	for(double i: times){
 	    System.out.println(i);
 	}
-	
-	/*	
-	printMatrix(a);
-	printMatrix(b);
-	printMatrix(c);
 	*/
-			
-
+       
+	
     }
 }
